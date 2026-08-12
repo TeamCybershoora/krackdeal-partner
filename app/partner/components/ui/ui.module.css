@@ -1,0 +1,96 @@
+/* ==========================================================================
+   PARTNER DASHBOARD REUSABLE UI PRIMITIVES - CSS MODULE
+   Inspired by Stripe, Shopify, Vercel, Notion, and Linear
+   ========================================================================== */
+
+/* PAGE HEADER */
+.pageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.titleGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 70%;
+}
+
+.pageTitle {
+  font-size: 26px;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.pageSubtitle {
+  font-size: 13px;
+  color: #94a3b8;
+  margin: 0;
+}
+
+.headerActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* REUSABLE CARD CONTAINER */
+.cardContainer {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* STAT CARD PRIMITIVE */
+.statCardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.statCardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.statLabel {
+  font-size: 12px;
+  font-weight: 700;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.statValue {
+  font-size: 26px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.statTrend {
+  font-size: 12px;
+  font-weight: 700;
+  color: #34d399;
+}
+
+.statIconBadge {
+  width: 48px;
+  height: 48px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
